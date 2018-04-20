@@ -4,9 +4,9 @@ var Canvas = require('canvas')
   , canvas = new Canvas(200, 200)
   , ctx = canvas.getContext('2d');
 
-ctx.font = '30px Impact';
+ctx.font = '30px DFGirl';
 ctx.rotate(.1);
-ctx.fillText("时空baka！!", 50, 100);
+ctx.fillText("芙兰baka！!", 50, 100);
 
 var te = ctx.measureText('时空baka！!');
 ctx.strokeStyle = 'rgba(0,0,0,0.5)';
