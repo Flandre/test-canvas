@@ -8,7 +8,7 @@ ctx.font = '30px DFGirl';
 ctx.rotate(.1);
 ctx.fillText("芙兰baka！!", 50, 100);
 
-var te = ctx.measureText('时空baka！!');
+var te = ctx.measureText('芙兰baka！!');
 ctx.strokeStyle = 'rgba(0,0,0,0.5)';
 ctx.beginPath();
 ctx.lineTo(50, 102);
